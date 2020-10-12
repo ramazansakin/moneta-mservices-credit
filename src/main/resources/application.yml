@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: credit-service
+  data:
+    mongodb:
+      host: mongodb
+      port: 27017
+      # we can set username, pass and other additional mongo configs here
+
+server:
+  port: 8091
